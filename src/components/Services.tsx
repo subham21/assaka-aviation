@@ -1,6 +1,6 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
-import cubeLeg from "../assets/cube-leg.png";
+import cubeLeg from "../assets/flight-crew.png";
 
 interface ServiceProps {
   title: string;
@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Cabin Crew Training",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "This course is designed to train students on the skills required to become a cabin crew. The program encapsulates all the topics related to aviation hospitality that a cabin crew member is required to know",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Hospitality Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "The hospitality and tourism sectors have made significant contributions to the economy in recent times, and are slated to generate even more revenue in the years ahead. ",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Ground Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Airport ground handling services is one of the key sectors within the aviation industry that is expected to witness spectacular growth in the coming years",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,14 +36,14 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+              Student-Centric{" "}
             </span>
-            Services
+            Approach
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            We provide tailored training solutions that prioritize 
+            individual growth, professional development, and industry readiness.
           </p>
 
           <div className="flex flex-col gap-8">

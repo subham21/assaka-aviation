@@ -1,4 +1,4 @@
-import { LogoIcon } from "./Icons";
+// import { LogoIcon } from "./Icons";
 
 export const Footer = () => {
   return (
@@ -12,20 +12,21 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            {/* <LogoIcon /> */}
+              {/* ShadcnUI/React */}
+              Aviation Institute
           </a>
         </div>
 
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+        {/* <div className="flex flex-col gap-2">
+          <h3 className="font-bold text-lg">Follow Us</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              Instagram
             </a>
           </div>
 
@@ -45,7 +46,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              Facebook
             </a>
           </div>
         </div>
@@ -81,7 +82,7 @@ export const Footer = () => {
               Desktop
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">About</h3>
@@ -91,7 +92,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Features
+              Courses
             </a>
           </div>
 
@@ -101,7 +102,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Pricing
+              Institute
             </a>
           </div>
 
@@ -117,14 +118,14 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
+          <h3 className="font-bold text-lg">Follow Us</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Youtube
+              Facebook
             </a>
           </div>
 
@@ -134,7 +135,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Discord
+              Instagram
             </a>
           </div>
 
@@ -144,14 +145,14 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Twitch
+              Twitter
             </a>
           </div>
         </div>
       </section>
 
       <section className="container pb-14 text-center">
-        <h3>
+        {/* <h3>
           &copy; 2024 Landing page made by{" "}
           <a
             rel="noreferrer noopener"
@@ -161,7 +162,7 @@ export const Footer = () => {
           >
             Leo Miranda
           </a>
-        </h3>
+        </h3> */}
       </section>
     </footer>
   );

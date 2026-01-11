@@ -4,22 +4,41 @@ export const Statistics = () => {
     description: string;
   }
 
+  // const stats: statsProps[] = [
+  //   {
+  //     quantity: "2.7K+",
+  //     description: "Users",
+  //   },
+  //   {
+  //     quantity: "1.8K+",
+  //     description: "Subscribers",
+  //   },
+  //   {
+  //     quantity: "112",
+  //     description: "Downloads",
+  //   },
+  //   {
+  //     quantity: "4",
+  //     description: "Products",
+  //   },
+  // ];
+
   const stats: statsProps[] = [
     {
-      quantity: "2.7K+",
-      description: "Users",
+      quantity: "5,000+",
+      description: "Trained Professionals",
     },
     {
-      quantity: "1.8K+",
-      description: "Subscribers",
+      quantity: "150+",
+      description: "Global Partnerships",
     },
     {
-      quantity: "112",
-      description: "Downloads",
+      quantity: "25+",
+      description: "Years of Excellence",
     },
     {
-      quantity: "4",
-      description: "Products",
+      quantity: "98%",
+      description: "Graduation Rate",
     },
   ];
 

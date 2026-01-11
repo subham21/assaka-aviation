@@ -11,6 +11,7 @@ interface FAQProps {
   value: string;
 }
 
+{/* FAQ data 
 const FAQList: FAQProps[] = [
   {
     question: "Is this template free?",
@@ -40,6 +41,39 @@ const FAQList: FAQProps[] = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+    value: "item-5",
+  },
+];
+*/}
+const FAQList: FAQProps[] = [
+  {
+    question: "What courses do you offer?",
+    answer: "We offer courses in cabin crew training, hospitality management, and ground services.",
+    value: "item-1",
+  },
+  {
+    question: "Are your courses internationally recognized?",
+    answer:
+      "Yes, our courses are designed to meet global aviation standards and are recognized by leading airlines worldwide.",
+    value: "item-2",
+  },
+  {
+    question:
+      "What are the career prospects after completing your training?",
+    answer:
+      "Graduates can pursue careers as cabin crew members, hospitality managers, and ground service agents in the aviation industry.",
+    value: "item-3",
+  },
+  {
+    question: "Do you provide job placement assistance?",
+    answer: "Yes, we have a dedicated placement cell that assists students in finding job opportunities post-training.",
+    value: "item-4",
+  },
+  {
+    question:
+      "What are the prerequisites for enrolling in your courses?",
+    answer:
+      "Applicants should have a high school diploma or equivalent and meet the age and physical requirements set by the aviation industry.",
     value: "item-5",
   },
 ];
