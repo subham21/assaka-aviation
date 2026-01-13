@@ -14,7 +14,7 @@ export const Footer = () => {
           >
             {/* <LogoIcon /> */}
               {/* ShadcnUI/React */}
-              Aviation Institute
+              Assaka Aviation
           </a>
         </div>
 
