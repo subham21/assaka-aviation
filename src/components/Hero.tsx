@@ -31,7 +31,7 @@
 
 //           <a
 //             rel="noreferrer noopener"
-//             href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+//             href="https://assaka-aviation.vercel.app/"
 //             target="_blank"
 //             className={`w-full md:w-1/3 ${buttonVariants({
 //               variant: "outline",
