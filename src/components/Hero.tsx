@@ -56,11 +56,11 @@
 
 import { Button } from "./ui/button";
 import { Input } from "@/components/ui/input"
-import heroImage from "@/assets/cabin-crew.jpg"
+import heroImage from "@/assets/cabin-crew.png"
 
 export const Hero = () => {
   return (
-    <section className="relative h-[90vh] w-full">
+    <section className="relative h-[70vh] w-full">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
